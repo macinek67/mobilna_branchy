@@ -4,7 +4,16 @@
              x:Class="mobilna_branchy.MainPage">
 
     <StackLayout>
-        
+        <Label Text="Mountains" Margin="20" HorizontalOptions="Center" FontSize="20"/>
+        <Image Source="mountains_embeddedImages.jpg" Aspect="Fill" Margin="0,30,0,30"/>
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="Btn_Like" ImageSource="like.jpg" HorizontalOptions="FillAndExpand" Margin="0" Clicked="Btn_Like_Clicked"/>
+            <Button x:Name="Btn_Dislike" ImageSource="dislike.jpg" HorizontalOptions="FillAndExpand" Margin="0" Clicked="Btn_Dislike_Clicked"/>
+        </StackLayout>
+        <Label x:Name="lbl_Likes" Text="0 Likes" HorizontalOptions="End" FontSize="20"/>
+        <BoxView BackgroundColor="Red" HeightRequest="1" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Description" FontAttributes="bold" FontSize="15" Margin="10"/>
+        <Label Text="lorem" Margin="10,0,10,10"/>
     </StackLayout>
 
 </ContentPage>
