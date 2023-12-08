@@ -14,5 +14,15 @@ namespace mobilna_branchy
         {
             InitializeComponent();
         }
+
+        private void Btn_Like_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Btn_Dislike_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
